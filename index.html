@@ -15,7 +15,7 @@
         <script src="src/id3-minimized.js"></script>
         <script src="src/audiovisualisierung.js"></script>
     </head>
-    <body>		   
+    <body onload="playSample()">		   
        	<input type="file" id="input" onchange="handleFiles(this.files)"/>
        	<button id="playSampleButton" type="button" onClick="playSample()">Play Sample File</button>
 		<button id="useMicButton" type="button" onClick="useMic()">Use Microphone</button>
